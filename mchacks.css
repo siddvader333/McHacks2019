@@ -14,7 +14,6 @@
     font-size: 16px;
     border:none;
     margin:10px;
-
 }
 .dragBox{
     border: 2px dashed #ccc;
@@ -40,6 +39,9 @@
     height:30px;
     width:30px;
     border-radius:50%;
+    line-height:2;
+    text-align:center;
+    color:#EDEDED;
 }
 .circle p{
     margin: 0 auto;
@@ -49,6 +51,7 @@ table{
     margin: 0 auto;
     padding:30px;
     padding-top:60px;
+    margin-top:60px
 }
 th{
     text-align:center;
