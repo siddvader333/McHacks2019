@@ -1,0 +1,41 @@
+#header{
+    height: 50px;
+    background-color: #f7b801;
+    box-shadow: 0px 1px 2px #888888;
+}
+.body{
+    text-align:center;
+}
+.submit-buttons{
+    background-color:#3d348B;
+    color:white;
+    padding: 15px 32px;
+    border-radius:80px;
+    font-size: 16px;
+    border:none;
+    margin:10px;
+
+}
+.dragBox{
+    border: 2px dashed #ccc;
+    width:500px;
+    margin: 0 auto
+}
+.dragBox img{
+    margin: 0 auto;
+    padding-bottom:5px;
+}
+
+#dragBoxcontainer{
+    padding:30px
+}
+
+.container{
+    margin: 0 auto
+}
+.circle{
+    background:#D3D3D3;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+}
