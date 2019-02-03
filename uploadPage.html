@@ -5,8 +5,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="mchacks.css"/>
+    <link rel="stylesheet" type="text/css" href="uploadPage.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="uploadPage.js"></script>
 </head>
 <body>
    <div id="header">
@@ -32,14 +33,14 @@
             <div id="dragBoxcontainer">
                 <img src="receiptlogo.png" style="display:block"/>
                 drag and drop folders and files from your desktop or use file browser
-                <input type="file" id="uploadFile"  />
+                <input type="file" id="uploadFile"  name="file"/>
             </div>
         </div>
               <div id="preview"></div>
               <br>
-            </form>
-        <a href="receiptverify.html"><button class="submit-buttons">Next Step</button></a>
-
+            
+			<input class="submit-buttons" type="submit"/>
+		</form>
     </div>
     </div>
 </body>
@@ -47,7 +48,7 @@
    
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src=""></script>
+
 
 </body>
 
