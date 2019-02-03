@@ -1,0 +1,24 @@
+.circle{
+    display: inline-block;
+      background-color:#D3D3D3;
+      height:30px;
+      width:30px;
+      border-radius:50%;
+      line-height:2;
+      text-align:center;
+      color:#EDEDED;
+  }
+  .circle p{
+      margin: 0 auto;
+      color:white;
+  }
+  table{
+      margin: 0 auto;
+      padding:30px;
+      padding-top:60px;
+      margin-top:40px
+  }
+  th{
+      text-align:center;
+      vertical-align:center;
+  }
