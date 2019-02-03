@@ -23,7 +23,7 @@
 }
 .dragBox img{
     margin: 0 auto;
-    padding-bottom:5px;
+    padding-bottom:15px;
 }
 
 #dragBoxcontainer{
@@ -33,9 +33,24 @@
 .container{
     margin: 0 auto
 }
+
 .circle{
-    background:#D3D3D3;
-    height:40px;
-    width:40px;
+  display: inline-block;
+    background-color:#D3D3D3;
+    height:30px;
+    width:30px;
     border-radius:50%;
+}
+.circle p{
+    margin: 0 auto;
+    color:white;
+}
+table{
+    margin: 0 auto;
+    padding:30px;
+    padding-top:60px;
+}
+th{
+    text-align:center;
+    vertical-align:center;
 }
